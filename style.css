@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*START:FORM*/
+.display{
+    display: flex;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(118, 149, 118);
+}
+
+
+.angle{
+    margin-top: 150px;
+}
+
+h2{
+    text-shadow: 2px 3px goldenrod;
+    font-size: 44px;
+}
+
+.address{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 800px;
+ 
+
+}
+.box{
+    white-space: pre-line;
+}
+form{
+    padding-left: 35px;
+
+}
+
+
+.title{
+    font-size: 18px;
+   padding-top: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+#email{ 
+    border: 20px;
+    width: 600px;
+    padding: 10px;
+
+}
+
+input{
+    border: solid;
+    border-width: 1px;
+    box-sizing:border-box;
+    padding: 10px;
+
+   
+}
+
+select{
+    border: solid;
+    border-width: 1px;
+    width: 600px;
+    padding: 10px;
+}
+
+#message{
+    width: 600px;
+    height:100px;
+    padding: 10px;
+    
+}
+
+#button{
+    padding:10px;
+    width: 80px;
+    background-color: white;
+
+    
+}
+
+#fullname{
+    width: 600px;
+    padding: 10px;
+}
+
+.align{
+    display: inline;
+}
+/*END:FORM*/
