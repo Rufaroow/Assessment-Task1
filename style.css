@@ -192,6 +192,13 @@ nav li{
     background-color: rgb(118, 149, 118);
 }
 
+.imgs3 img{
+  display: inline;
+  height:50px;
+  width: 50px;
+  border-radius: 18px;
+ 
+}
 
 .angle{
     margin-top: 150px;
