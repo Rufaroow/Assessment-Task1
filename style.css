@@ -1,6 +1,106 @@
+    /*START: IMAGE GALLERY*/  
+ .media img{
+    display: inline-block;
+    padding-bottom: 10px;
+    box-shadow: 0 8px 8px 0 green;
+    background: white;
+       
+ }
 
+  .box{
+    display: inline-block;
+    margin-top: 0;
+    filter: grayscale(100%);
+    background: white;
+  }
 
+  .container{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+  }
 
+  .red img{
+    display: inline;
+    width: 300px;
+    height: auto;
+  }
+  .box .media:before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    transition: all 0.35s;
+  }
+  .box:nth-of-type(4n+1) {
+    transform: scale(0.8, 0.8) rotate(5deg);
+    transition: all 0.35s;
+  }
+  .box:nth-of-type(4n+1) .media:before {
+    transform: rotate(6deg);
+    height: 20%;
+    width: 47%;
+    bottom: 30px;
+    right: 12px;
+    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+  }
+  .box:nth-of-type(4n+2) {
+    transform: scale(0.8, 0.8) rotate(-5deg);
+    transition: all 0.35s;
+  }
+  .box:nth-of-type(4n+2) .media:before {
+    transform: rotate(-6deg);
+    height: 20%;
+    width: 47%;
+    bottom: 30px;
+    left: 12px;
+    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+  }
+
+  .box:nth-of-type(4n+4) {
+    transform: scale(0.8, 0.8) rotate(3deg);
+    transition: all 0.35s;
+  }
+  .box:nth-of-type(4n+4) .media:before {
+    transform: rotate(4deg);
+    height: 20%;
+    width: 47%;
+    bottom: 30px;
+    right: 12px;
+    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+  }
+  .box:nth-of-type(4n+3) {
+    transform: scale(0.8, 0.8) rotate(-3deg);
+    transition: all 0.35s;
+  }
+  .box:nth-of-type(4n+3) .media:before {
+    transform: rotate(-4deg);
+    height: 20%;
+    width: 47%;
+    bottom: 30px;
+    left: 12px;
+    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+  }
+
+ 
+  .box:hover {
+    filter: none;
+    transform: scale(1, 1) rotate(0deg);
+    transition: all 0.35s;
+  }
+  .box:hover .media:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(0deg);
+    height: 90%;
+    width: 90%;
+    bottom: 0%;
+    right: 5%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+    transition: all 0.35s;
+  }
+  
+    /*END: IMAGE GALLERY*/
 
 
 /*START:FORM*/
