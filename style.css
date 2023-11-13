@@ -1,3 +1,25 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #D0D0CE;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:blue
+ 
+}
+
 /* START: Navbar*/
 .navBar{
     overflow: hidden;
@@ -159,8 +181,7 @@ nav li{
     transition: all 0.35s;
   }
   
-    /*END: IMAGE GALLERY*/
-
+/*END: IMAGE GALLERY*/
 
 /*START:FORM*/
 .display{
@@ -188,7 +209,7 @@ h2{
  
 
 }
-.box{
+.box1{
     white-space: pre-line;
 }
 form{
